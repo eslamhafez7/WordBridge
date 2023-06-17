@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="select-container">
+            <select></select>
+            <div class="exchange">
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+            </div>
+            <select></select>
+        </div>
+    </header>
+    <section class="section">
+        <div class="container">
+            <div class="area">
+                <textarea class="text-from" placeholder="Enter Text"></textarea>
+                <div class="icons">
+                    <i id="from" class="fas fa-volume-up"></i>
+                    <i id="from" class="fas fa-copy"></i>
+                </div>
+            </div>
+            <div class="border"></div>
+            <div class="area">
+                <textarea class="text-to" placeholder="Translation"></textarea>
+                <div class="icons">
+                    <i id="to" class="fas fa-volume-up"></i>
+                    <i id="to" class="fas fa-copy"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="copyright"><p>&copy; Eslam Hafez</p></div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+    <script src="javascript/countries.js"></script>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
