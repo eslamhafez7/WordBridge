@@ -3,6 +3,7 @@ const textTo = document.querySelector(".text-to");
 const selectTag = document.querySelectorAll("select");
 const exchange = document.querySelector(".exchange i");
 const icons = document.querySelectorAll(".icons i");
+const popup = document.getElementById("popup");
 
 selectTag.forEach((tag, id) => {
     for (const countryCode in countries) {
