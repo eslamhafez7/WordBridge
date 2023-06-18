@@ -86,6 +86,7 @@ select option:checked {
     resize: none;
     outline: none;
     font-family: 'Poppins', sans-serif;
+    background-color: transparent;
 }
 .area .icons {
     position: absolute;
